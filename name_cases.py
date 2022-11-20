@@ -6,5 +6,7 @@ names = "albert einstein"
 quote = 'A person who never made a mistake never tried anything new.'
 print(names.title() + ' once said: ' + quote)
 femous_person = 'джейсон стетхем'
-message = 'Громко-это как тихо, только громче!'
-print(femous_person.title() + ' : ' + message)
+message = '\tГромко-это как тихо, только громче!'
+print(femous_person.title() + ':\n' + message.lstrip())
+print(femous_person.title() + ':\n' + message.rstrip())
+print(femous_person.title() + ':\n' + message.strip())
