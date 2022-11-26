@@ -12,5 +12,5 @@ peolpe_two = {
 }
 peolpe = [people_one, peolpe_two]
 print(peolpe)
-for key, value in people_one:
+for key, value in people_one.items():
     print(key, value)
