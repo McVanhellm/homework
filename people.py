@@ -1,16 +1,22 @@
-people_one = {
-    'first_name': 'Oleg',
-    'last_name': "Petrovich",
-    'age': 32,
-    'city': 'Hrodna'
+human_one = {
+    'first_name': 'Фома',
+    'last_name': 'Генадьевич',
+    'age': 65,
+    'city': 'Шчучыншчына'
 }
-peolpe_two = {
-    'first_name': 'Debil',
-    'last_name': "Svoloch",
-    'age': 56,
-    'city': 'Cheboksary'
+human_two = {
+    'first_name': 'Алесь',
+    'last_name': 'Дмитриевич',
+    'age': 15,
+    'city': 'Гродненщина'
 }
-peolpe = [people_one, peolpe_two]
-print(peolpe)
-for key, value in people_one.items():
-    print(key, value)
+human_three = {
+    'first_name': 'Сан',
+    'last_name': 'Саныч',
+    'age': 65,
+    'city': 'Почему та на....?'
+}
+people = [human_one, human_two, human_three]
+for human in people:
+    for key, value in human.items():
+        print(key + ":", value)
